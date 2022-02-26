@@ -18,6 +18,10 @@ public class Main {
 
         Book harryPotter2 = new Book("Harry Potter", authorHarryPotter, 2010);
         System.out.println(harryPotter.equals(harryPotter2));
-    }
 
+        System.out.println(authorHarryPotter.equals(authorLordOfRings));
+
+        Author joanneRowling = new Author("Joanne", "Rowling");
+        System.out.println(authorHarryPotter.equals(joanneRowling));
+    }
 }
